@@ -1,0 +1,38 @@
+{
+  "name": "clockin",
+  "version": "0.1.0",
+  "description": "a small date library whose focus is on this moment in time",
+  "main": "index.js",
+  "scripts": {
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/akileez/clockin.git"
+  },
+  "author": {
+    "name": "Keith Williams",
+    "email": "git@keeda.net",
+    "url": "https://github.com/akileez/clockin"
+  },
+  "homepage": "https://github.com/akileez/clockin",
+  "bugs": {
+    "url": "https://github.com/akileez/clockin/issues"
+  },
+  "license": {
+    "type": "ISC",
+    "url": "https://github.com/akileez/clockin/blob/master/LICENSE"
+  },
+  "keywords": [],
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ]
+}
