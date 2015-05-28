@@ -1,6 +1,6 @@
 {
   "name": "clockin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a small date library whose focus is on this moment in time",
   "main": "index.js",
   "scripts": {
@@ -21,18 +21,32 @@
   "bugs": {
     "url": "https://github.com/akileez/clockin/issues"
   },
-  "license": {
-    "type": "ISC",
-    "url": "https://github.com/akileez/clockin/blob/master/LICENSE"
-  },
-  "keywords": [],
+  "license": "ISC",
+  "keywords": [
+    "date",
+    "calendar",
+    "day",
+    "days",
+    "month",
+    "months",
+    "year",
+    "years",
+    "quarter",
+    "leap-year",
+    "time",
+    "parse",
+    "format",
+    "week",
+    "weeks",
+    "moment",
+    "now",
+    "clock"
+  ],
   "dependencies": {
   },
   "devDependencies": {
   },
   "files": [
-    "LICENSE",
-    "index.js",
-    "README.md"
+    "index.js"
   ]
 }
