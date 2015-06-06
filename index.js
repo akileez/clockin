@@ -161,11 +161,10 @@ module.exports = function (date, mask) {
   }
 
   function getDayNumOfYear () {
-    var msid = 1000 * 60 * 60 * 24 // 86,400,000 ms
-    var end = new Date(date.getTime())
-    var start = new Date(date.setMonth(0, 0))
-    var diff = end - start
-    return Math.ceil(diff / msid)
+    var now = new Date(date.getTime())
+    var then = new Date(date.getFullYear(), 0, 1)
+
+    return Math.ceil((now - then) / 86400000)
   }
 
   function pad (val, len) {
