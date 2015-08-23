@@ -17,6 +17,7 @@ var present = new Date()
 getDate(present, 'now') // Sunday, August 23rd, 2015 05:06:14 GMT-0400
 getDate(present)        // Sunday, August 23rd, 2015 05:06:14 GMT-0400
 getDate('now')          // Sunday, August 23rd, 2015 05:06:14 GMT-0400
+getDate()               // Sunday, August 23rd, 2015 05:06:14 GMT-0400
 ```
 
 ## API
