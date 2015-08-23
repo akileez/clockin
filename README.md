@@ -6,7 +6,7 @@
 
 ## Installation
 ```bash
-$ npm install akileez\clockin
+$ npm install clockin
 ```
 
 ## Usage
