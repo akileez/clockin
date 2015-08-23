@@ -11,16 +11,21 @@ $ npm install akileez\clockin
 
 ## Usage
 ```js
+var getDate = require('clockin')
 
+var present = new Date()
+getDate(present, 'now') // Sunday, August 23rd, 2015 05:06:14 GMT-0400
+getDate(present)        // Sunday, August 23rd, 2015 05:06:14 GMT-0400
+getDate('now')          // Sunday, August 23rd, 2015 05:06:14 GMT-0400
 ```
 
 ## API
-```js
 
-```
+#### `clockin ([date [, mask]])` 
 
 ## Why?
-
+After analyzing my usage of [moment](https://www.npmjs.com/package/moment), I discovered that 99 out of 100 times I used
+the date formatting routines of the present `moment`. 
 
 ## See Also
 -
