@@ -25,8 +25,10 @@ getDate()               // Sunday, August 23rd, 2015 05:06:14 GMT-0400
 #### `clockin ([date [, mask]])` 
 
 ## Why?
-After analyzing my usage of [moment](https://www.npmjs.com/package/moment), I discovered that 99 out of 100 times I used
-the date formatting routines of the present `moment`. 
+After analyzing my usage of [moment](https://www.npmjs.com/package/moment), I discovered that 99 out of 100 times I used the date formatting routines of the present `moment`. 
+
+## Changelog
+0.1.3 - add lib to files array in package.json
 
 ## See Also
 -
