@@ -1,6 +1,6 @@
 {
   "name": "clockin",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "a small date library whose focus is on this moment in time",
   "main": "index.js",
   "scripts": {
@@ -47,6 +47,7 @@
   "devDependencies": {
   },
   "files": [
-    "index.js"
+    "index.js",
+    "lib"
   ]
 }
